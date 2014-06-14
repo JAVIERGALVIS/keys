@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 14-06-2014 a las 10:04:14
+-- Tiempo de generación: 14-06-2014 a las 16:54:06
 -- Versión del servidor: 5.6.17
 -- Versión de PHP: 5.5.12
 
@@ -22,16 +22,6 @@ SET time_zone = "+00:00";
 
 -- --------------------------------------------------------
 
---
--- Estructura de tabla para la tabla `gbiden`
---
-
-CREATE TABLE IF NOT EXISTS `gbiden` (
-  `id` tinyint(2) unsigned NOT NULL AUTO_INCREMENT,
-  `sigla` varchar(5) COLLATE utf8_unicode_ci NOT NULL,
-  `detalle` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=4 ;
 
 --
 -- Volcado de datos para la tabla `gbiden`
